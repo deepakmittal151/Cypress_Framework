@@ -1,0 +1,7 @@
+{
+  "name" :"bob",
+ "gender":"Female",
+ "ProductName" : ["Blackberry","Nokia Edge"],
+ "country" : "India",
+ "ProductName2": ["Sauce Labs Backpack","Sauce Labs Bike Light"]
+}
