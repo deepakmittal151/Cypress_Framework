@@ -4,9 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run",
-    "headedChrome": "npx cypress run --headed --browser chrome"
+    "headedChrome": "npx cypress run --headed --browser chrome",
+    "cypressCloud": "npx cypress run --record --parallel --key mnzfpu --ci-build-id $BUILD_NUMBER"
   },
-  
+
   "devDependencies": {
     "cypress": "^13.15.0",
     "cypress-mochawesome-reporter": "^3.8.2"
