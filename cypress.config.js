@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'mnzfpu',
   defaultCommandTimeout: 8000,
   reporter: 'cypress-mochawesome-reporter',
   env: {
