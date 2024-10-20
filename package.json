@@ -5,7 +5,7 @@
   "scripts": {
     "test": "npx cypress run",
     "headedChrome": "npx cypress run --headed --browser chrome",
-    "cypressCloud": "npx cypress run --record --parallel --key mnzfpu --ci-build-id $BUILD_NUMBER"
+    "cypressCloud": "npx cypress run --record --parallel --key 322de7b8-bc7c-42e6-9b2f-d5b841b4f9a8 --ci-build-id $BUILD_NUMBER"
   },
 
   "devDependencies": {
